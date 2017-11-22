@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout of time picker-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/timePickerLayout"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- hour -->
+    <com.lucky.library.xhdatetimepicker.NumberPickerView
+        android:id="@+id/hour"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:npv_ShowCount="3"
+        app:npv_ItemPaddingVertical="16dp"
+        app:npv_TextSizeNormal="14sp"
+        app:npv_TextSizeSelected="16sp"
+        app:npv_DividerColor="@color/background_blue"
+        app:npv_TextColorSelected="@color/text_blue"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text=":"/>
+    <!-- minute -->
+    <com.lucky.library.xhdatetimepicker.NumberPickerView
+        android:id="@+id/minute"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:npv_ShowCount="3"
+        app:npv_ItemPaddingVertical="16dp"
+        app:npv_TextSizeNormal="14sp"
+        app:npv_TextSizeSelected="16sp"
+        app:npv_DividerColor="@color/background_blue"
+        app:npv_TextColorSelected="@color/text_blue"/>
+
+</LinearLayout>
