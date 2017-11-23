@@ -1,9 +1,11 @@
-package com.lucky.library.xhdatetimepicker;
+package com.lucky.library.datetimepicker;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.FrameLayout;
+
+import com.lucky.library.datetimepicker.R;
 
 import java.util.Calendar;
 import java.util.Locale;

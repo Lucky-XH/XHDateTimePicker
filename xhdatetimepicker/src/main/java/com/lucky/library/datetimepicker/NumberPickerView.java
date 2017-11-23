@@ -1,4 +1,4 @@
-package com.lucky.library.xhdatetimepicker;
+package com.lucky.library.datetimepicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -18,10 +18,10 @@ import android.view.VelocityTracker;
 import android.view.View;
 import android.view.ViewConfiguration;
 
+import com.lucky.library.datetimepicker.R;
+
 /**
- * Created by Carbs.Wang.
- * email : yeah0126@yeah.net
- * github : https://github.com/Carbs0126/NumberPickerView
+ * @author xhao
  */
 public class NumberPickerView extends View{
 

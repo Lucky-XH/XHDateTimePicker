@@ -7,7 +7,7 @@
     android:layout_gravity="center_horizontal"
     android:orientation="horizontal">
 
-    <com.lucky.library.xhdatetimepicker.NumberPickerView
+    <com.lucky.library.datetimepicker.NumberPickerView
         android:id="@+id/year"
         android:layout_width="56dp"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         app:npv_DividerColor="@color/background_blue"
         app:npv_TextColorSelected="@color/text_blue"/>
 
-    <com.lucky.library.xhdatetimepicker.NumberPickerView
+    <com.lucky.library.datetimepicker.NumberPickerView
         android:id="@+id/month"
         android:layout_width="56dp"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         app:npv_DividerColor="@color/background_blue"
         app:npv_TextColorSelected="@color/text_blue"/>
 
-    <com.lucky.library.xhdatetimepicker.NumberPickerView
+    <com.lucky.library.datetimepicker.NumberPickerView
         android:id="@+id/day"
         android:layout_width="56dp"
         android:layout_height="wrap_content"

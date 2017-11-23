@@ -8,7 +8,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <!-- hour -->
-    <com.lucky.library.xhdatetimepicker.NumberPickerView
+    <com.lucky.library.datetimepicker.NumberPickerView
         android:id="@+id/hour"
         android:layout_width="56dp"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
         android:gravity="center"
         android:text=":"/>
     <!-- minute -->
-    <com.lucky.library.xhdatetimepicker.NumberPickerView
+    <com.lucky.library.datetimepicker.NumberPickerView
         android:id="@+id/minute"
         android:layout_width="56dp"
         android:layout_height="wrap_content"

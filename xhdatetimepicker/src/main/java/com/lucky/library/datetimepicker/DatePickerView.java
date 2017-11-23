@@ -1,4 +1,4 @@
-package com.lucky.library.xhdatetimepicker;
+package com.lucky.library.datetimepicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,9 +8,6 @@ import android.widget.FrameLayout;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-
-import static com.lucky.library.xhdatetimepicker.R.id.month;
-import static com.lucky.library.xhdatetimepicker.R.id.year;
 
 /**
  *
@@ -77,8 +74,8 @@ public class DatePickerView extends FrameLayout implements NumberPickerView.OnVa
     private void initInternal(Context context){
         View contentView = inflate(context, R.layout.view_date_picker, this);
 
-        mYearPickerView = (NumberPickerView) contentView.findViewById(year);
-        mMonthPickerView = (NumberPickerView) contentView.findViewById(month);
+        mYearPickerView = (NumberPickerView) contentView.findViewById(R.id.year);
+        mMonthPickerView = (NumberPickerView) contentView.findViewById(R.id.month);
         mDayPickerView = (NumberPickerView) contentView.findViewById(R.id.day);
 
         mYearPickerView.setOnValueChangedListener(this);
